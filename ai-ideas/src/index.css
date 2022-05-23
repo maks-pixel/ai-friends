@@ -11,3 +11,108 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+main{
+  background-color: #41B3A3;
+  color:black; 
+  display: flex;
+  align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding:100px 40px;
+    padding-bottom: 200px;
+  }
+
+  .prompt{
+    width:100%;
+    transition: 0.5s;
+    background-color:#C38D9E;
+    color: #094067;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 6px;
+    text-decoration: none;
+  }
+  input{
+    padding:10px;
+    border-radius:10px;
+    width:100%;
+  }
+
+  .all-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    /* width:95%;
+    box-shadow: 0px 0px 15px -5px; */
+    transition: 0.5s;
+    background-color:#C38D9E;
+    color: #094067;
+    padding: 20px 30px 60px 30px;
+  
+  }
+  .card-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: center;
+  }
+  .card-container{
+    width:1000px;
+    overflow:hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.5s;
+    background-color: #41B3A3 ;
+    color: #094067;
+    margin: 10px;
+    /* border: 3px solid #f25f4c;  */
+    border-radius: 6px;
+  }
+
+  .info-container{
+    display: flex;
+    flex-direction: column;
+    text-decoration:none;
+    margin: 5px;
+    align-items: center;
+    align-content: center;
+  }
+  .title, .header{
+    text-align: center;
+  }
+  .header{
+    font-size:60px;
+  }
+
+  .response{
+    margin: 3.5px;
+  }
+
+  .main-container{
+    background-color:#E8A87C ;
+    color: #094067;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 6px;
+    padding: 40px;
+  }
+
+  .main-response{
+    background-color:#E8A87C ;
+    color: #094067;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding: 40px;
+  }
